@@ -26,7 +26,7 @@
 </section>
 
 <section id="bg-2">
-<div class="bg-parceiros position-relative mt-5" id="feedback-da-galera">
+<div class="bg-parceiros position-relative mt-5 bg-sobre" id="feedback-da-galera">
         <div class="container py-5">
             <div class="row">
                 <div class="col-12 text-center">
@@ -92,10 +92,13 @@
 <section id="">
     <div class="container mt-5 bg-ingresso">
         <div class="row">
-                <div class="col-sm-6 mt-5">
+                <div class="col-auto mt-5">
                     <img class="" src="assets/images/tv.png" alt="">
                 </div>
-                <div class="col-sm-6 mt-5">
+                <div class="col-auto d-flex align-items-center px-0 px-md-2">
+                    <hr class="divisao m-0">
+                </div>
+                <div class="col-auto mt-5">
                     <img src="assets/images/ingressoLogo.png" alt="">
                     <h2 class="py-3"><b> Garanta seu <br> ingresso on-line</b></h2>
                     <a href="#" class="btnLink btn-yellow d-block w-fit-content mt-3 mx-auto mx-lg-0" target="_blank"><h5><b>Compre aqui</b></h5></a>
@@ -104,6 +107,36 @@
     </div>
 </section>
 
+
+<section>
+    <div class="container mt-0 bg-5">
+        <div class="row">
+            <div class="col-sm-6 mt-5">
+                <img class="iconHumor" src="assets/icons/icon-humor.png" alt="">
+                <p class="txtHumor mx-3"><b>Um dos melhores <br>
+                    humoristas atualidade</b></p>
+
+                <div class="col-sm-6 mt-5 d-xl-none">
+                    <img class="py-2" src="assets/images/carioca-humor.png" alt="">
+                </div>
+
+                <p class="py-3">Carioca completa <b class="numero txtLaranja">22 anos de carreira</b>
+                    em que conquistou uma legião de fãs.
+                    Carioca é conhecido por suas inúmeras
+                    e emblemáticas imitações. Entre elas
+                    podemos destacar as personagens de
+                    Amaury Junior, Jô Soares, Fausto Silva,
+                    Zeca Camargo, Edir Macedo, Raul Gil,
+                    Boris Casoy, Lulu Santos. As mais
+                    recentes e de grande sucesso são de
+                    Bolsonaro e Sérgio Mor</p>
+            </div>
+            <div class="col-sm-6 mt-5 d-none d-xl-block">
+                <img class="py-5" src="assets/images/carioca-humor.png" alt="">
+            </div>
+        </div>
+    </div>
+</section>
 
     <br><br>
     <br><br>

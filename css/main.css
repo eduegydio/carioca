@@ -156,6 +156,10 @@ small {
     font-family: 'Montserrat', sans-serif;
 }
 
+.numero{
+    font-family: 'Montserrat', sans-serif;
+}
+
 .divisor {
     opacity: 1;
     width: 1px;
@@ -247,14 +251,6 @@ hr {
     opacity: 0.25;
 }
 
-hr.divisao {
-    opacity: 1;
-    width: 5px;
-    height: 50%;
-    background: #ff8100;
-    border-radius: 10px;
-    border-top: 0;
-}
 
 h1 {
     font-size: 50px;
@@ -1170,6 +1166,21 @@ footer::before {
     background-repeat: no-repeat;
 }
 
+
+
+.bg-sobre::after{
+    content: "";
+    position: absolute;
+    top: 85%;
+    left: 0%;
+    width: 10%;
+    height: 100%;
+    background-image: url(../assets/icons/decoracao.png);
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
 .imgCarioca{
     width: 400px;
     height: auto;
@@ -1177,6 +1188,13 @@ footer::before {
 
 .txtLaranja{
     color: #ff8200;
+}
+
+.txtHumor{
+    color: #ff8200;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
 }
 
 #bg-ingresso {
@@ -1393,6 +1411,10 @@ footer::before {
         width: 60%;
         height: auto;
     }
+    .bg-5{
+        width: 60%;
+        height: auto;
+    }
     .bg-ingresso{
         width: 60%;
         height: auto;
@@ -1400,7 +1422,20 @@ footer::before {
         background-size:cover;
         background-position: center;
         background-repeat: no-repeat;
-        padding: 3rem 5rem 5rem 5rem;
+        padding: 3rem 5rem 5rem 15rem;
+    }
+    
+}
+
+@media screen and (min-width: 1442px) {
+
+    hr.divisao {
+        opacity: 1;
+        width: 5px;
+        height: 50%;
+        background: #fff;
+        border-radius: 10px;
+        border-top: 0;
     }
     
 }
@@ -1489,13 +1524,25 @@ footer::before {
     .bg-ingresso{
         width: 100%;
         height: auto;
-        background-image: url('/carioca/assets/images/banners/bg-4.webp');
+        background-image: url('/carioca/assets/images/banners/mobile/bg-4Mobile.png');
         background-size:cover;
         background-position: center;
         background-repeat: no-repeat;
-        padding: 3rem 5rem 8rem 5rem;
+        padding: 0rem 5rem 3rem 5rem;
     }
 
+}
+
+@media screen and (max-width: 390px) {
+    .txtHumor{
+        font-size: 20px !important;
+        padding-left: 8% !important;
+        text-align: center;
+    }
+
+    .iconHumor{
+        display: none !important;
+    }
 }
 
 @media screen and (max-width: 576px) {
@@ -1524,6 +1571,15 @@ footer::before {
     #bg-2 {
         position: relative;
         margin-top: -15%;
+    }
+
+    .txtHumor{
+        font-size: 18px;
+        padding-left: 2%;
+    }
+
+    .iconHumor{
+        padding-left: 6%;
     }
 
     .small,
