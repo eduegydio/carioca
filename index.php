@@ -129,10 +129,30 @@
                     Zeca Camargo, Edir Macedo, Raul Gil,
                     Boris Casoy, Lulu Santos. As mais
                     recentes e de grande sucesso são de
-                    Bolsonaro e Sérgio Mor</p>
+                    Bolsonaro e Sérgio Moro</p>
             </div>
             <div class="col-sm-6 mt-5 d-none d-xl-block">
                 <img class="py-5" src="assets/images/carioca-humor.png" alt="">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="bg-6">
+    <div class="bg-vendas">
+        <div class="container mt-0 ">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h1><b>Ponto de Vendas</b></h1>
+                </div>
+                <div class="col-sm-6 mt-5 leftVendas">
+                    <img src="assets/images/st-logo.png" alt="">
+                </div>
+                <div class="col-sm-6 mt-5 leftVendas2">
+                    <p>Eventos e entretenimento <br>
+                        A sua casa de show <br>
+                        Porto Velho - Rondônia</p>
+                </div>
             </div>
         </div>
     </div>

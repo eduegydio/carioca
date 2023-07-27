@@ -1145,6 +1145,11 @@ footer::before {
     margin-top: -10%;
 }
 
+#bg-6 {
+    position: relative;
+    margin-top: 6%;
+}
+
 .bg-parceiros {
     background-image: url(../assets/images/banners/bg-parceiros.png);
     background-size: cover;
@@ -1178,6 +1183,27 @@ footer::before {
     background-image: url(../assets/icons/decoracao.png);
     background-size: cover;
     background-position: right;
+    background-repeat: no-repeat;
+}
+
+.bg-vendas{
+    background-image: url(../assets/images/banners/bg-vendas.webp);
+    background-size: cover;
+    background-position: top;
+    padding: 200px 0;
+    position: relative;
+}
+
+.bg-vendas::before {
+    content: "";
+    position: absolute;
+    top: 20%;
+    left: 90%;
+    width: 10%;
+    height: 100%;
+    background-image: url(../assets/icons/decoracao-right.png);
+    background-size: cover;
+    background-position: left;
     background-repeat: no-repeat;
 }
 
@@ -1411,7 +1437,7 @@ footer::before {
         width: 60%;
         height: auto;
     }
-    .bg-5{
+    .bg-5, .bg-6{
         width: 60%;
         height: auto;
     }
@@ -1424,6 +1450,16 @@ footer::before {
         background-repeat: no-repeat;
         padding: 3rem 5rem 5rem 15rem;
     }
+
+    .leftVendas {
+        position: relative;
+        left: 30%; 
+      }
+      
+      .leftVendas2 {
+        position: relative;
+        left: -6vw; 
+      }
     
 }
 
@@ -1531,6 +1567,16 @@ footer::before {
         padding: 0rem 5rem 3rem 5rem;
     }
 
+    .leftVendas {
+        left: 10%; /* Ajuste a porcentagem conforme necessário para telas menores */
+        text-align: center;
+      }
+    
+      .leftVendas2 {
+        left: -2vw; /* Ajuste a medida em vw conforme necessário para telas menores */
+      }
+    
+
 }
 
 @media screen and (max-width: 390px) {
@@ -1580,6 +1626,10 @@ footer::before {
 
     .iconHumor{
         padding-left: 6%;
+    }
+
+    .bg-vendas{
+        padding: 60px 0 !important;
     }
 
     .small,
