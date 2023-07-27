@@ -1197,7 +1197,7 @@ footer::before {
 .bg-vendas::before {
     content: "";
     position: absolute;
-    top: 20%;
+    top: -10vw;
     left: 90%;
     width: 10%;
     height: 100%;
