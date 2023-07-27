@@ -183,9 +183,58 @@
         <div class="col-auto">
             <img src="assets/images/holanda-2.png" alt="">
         </div>
+        </div>
+      </div>
     </div>
-</div>
+</section>
 
+<section>
+    <div class="bg-moments">
+        <div class="container">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-sm-12 text-center">
+                    <h1><b>#Você está aqui</b></h1>
+                    <p>Confira os melhores momentos</p>
+                </div>
+
+                <!-- Versão Desktop -->
+                <div class="row justify-content-center align-items-center momentsNone">
+                    <div class="col-auto mt-5">
+                        <div class="imgWhite mt-3">imagem</div>
+                        <div class="imgWhite mt-3">imagem</div>
+                        <div class="imgWhite mt-3">imagem</div>
+                    </div>
+                    <div class="col-auto mt-5">
+                        <div class="imgWhite mt-3">imagem</div>
+                        <div class="imgWhite mt-3">imagem</div>
+                        <div class="imgWhite mt-3">imagem</div>
+                    </div>
+                    <div class="col-auto mt-5">
+                        <div class="imgWhite mt-3">imagem</div>
+                        <div class="imgWhite mt-3">imagem</div>
+                        <div class="imgWhite mt-3">imagem</div>
+                    </div>
+                </div>
+
+                  <!-- Carrossel Mobile -->
+                  <div class="col-10 col-md-8 col-lg-6 mx-auto mt-0 carrosselFeedback momentsNoneMobile">
+                    <div class="boxMoments">
+                        <div class="col-auto mt-5">
+                            <div class="imgWhite mt-3">imagem</div>
+                            <div class="imgWhite mt-3">imagem</div>
+                            <div class="imgWhite mt-3">imagem</div>
+                        </div>
+                    </div>
+                    <div class="boxMoments">
+                        <div class="col-auto mt-5">
+                            <div class="imgWhite mt-3">imagem</div>
+                            <div class="imgWhite mt-3">imagem</div>
+                            <div class="imgWhite mt-3">imagem</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </section>
 
