@@ -140,7 +140,7 @@
 
 <section id="bg-6">
     <div class="bg-vendas">
-        <div class="container mt-0 ">
+        <div class="container mt-0">
             <div class="row">
                 <div class="col-12 text-center">
                     <h1><b>Ponto de Vendas</b></h1>
@@ -155,6 +155,37 @@
                 </div>
             </div>
         </div>
+    </div>
+</section>
+
+
+
+<!-- FAZER SECTION TBT -->
+<!-- FAZER SECTION TBT -->
+<!-- FAZER SECTION TBT -->
+<!-- FAZER SECTION TBT -->
+<!-- FAZER SECTION TBT -->
+
+
+<section id="bg-8">
+    <div class="bg-apoio">
+    <div class="container mt-5">
+    <div class="row justify-content-center align-items-center">
+        <div class="col-12 text-center">
+            <h1><b>Apoio</b></h1>
+        </div>
+        <div class="col-auto">
+            <img src="assets/images/holanda-2.png" alt="">
+        </div>
+        <div class="col-auto">
+            <img src="assets/images/holanda-2.png" alt="">
+        </div>
+        <div class="col-auto">
+            <img src="assets/images/holanda-2.png" alt="">
+        </div>
+    </div>
+</div>
+
     </div>
 </section>
 

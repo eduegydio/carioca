@@ -1150,6 +1150,11 @@ footer::before {
     margin-top: 6%;
 }
 
+#bg-8 {
+    position: relative;
+    margin-top: 6%;
+}
+
 .bg-parceiros {
     background-image: url(../assets/images/banners/bg-parceiros.png);
     background-size: cover;
@@ -1189,7 +1194,8 @@ footer::before {
 .bg-vendas{
     background-image: url(../assets/images/banners/bg-vendas.webp);
     background-size: cover;
-    background-position: top;
+    background-position: center center;
+    background-repeat: no-repeat;
     padding: 200px 0;
     position: relative;
 }
@@ -1206,6 +1212,17 @@ footer::before {
     background-position: left;
     background-repeat: no-repeat;
 }
+
+.bg-apoio {
+    background-image: url(../assets/images/banners/bg-apoio.webp);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 200px 0;
+}
+
+
+
 
 .imgCarioca{
     width: 400px;
@@ -1229,8 +1246,6 @@ footer::before {
     background-position: center;
     background-repeat: no-repeat;
 }
-
-
 
 .barra-decoracao {
     position: absolute;
@@ -1628,7 +1643,7 @@ footer::before {
         padding-left: 6%;
     }
 
-    .bg-vendas{
+    .bg-vendas, .bg-apoio{
         padding: 60px 0 !important;
     }
 
