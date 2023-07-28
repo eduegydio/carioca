@@ -5,8 +5,8 @@
     <meta charset="utf-8">
     <title>IR Produções e eventos</title>
     <meta name="Description" content="Empresa de organização de eventos. Trabalhamos na concepção e gestão de eventos empresariais e sociais. Atuamos com análise de perfil do cliente, planejamento, organização e produção do evento." />
-    <link rel="alternate" href="https://irproducoes.com.br/cariocaemportovelho/" hreflang="pt-br" />
-    <link rel="canonical" href="https://irproducoes.com.br/cariocaemportovelho/" />
+    <link rel="alternate" href="https://irproducoes.com.br/cariocaemportovelho/teste/" hreflang="pt-br" />
+    <link rel="canonical" href="https://irproducoes.com.br/cariocaemportovelho/teste/" />
     <?php include('include/head.php'); ?>
 </head>
 

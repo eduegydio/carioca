@@ -1038,7 +1038,7 @@ footer::before {
 
 /* Home */
 #bg-1 {
-    background-image: url('/carioca/assets/images/banners/bg-carioca.webp');
+    background-image: url('../assets/images/banners/bg-carioca.webp');
     background-size:cover;
     background-position: center;
     background-repeat: no-repeat;
