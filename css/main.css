@@ -1071,7 +1071,7 @@ footer::before {
     left: 0;
     width: 200px;
     height: 500px;
-    background-image: url(../assets/icons/decoracao.png);
+    background-image: url('../assets/icons/decoracao.png');
     background-size: cover;
     background-position: right;
     background-repeat: no-repeat;
@@ -1104,7 +1104,7 @@ footer::before {
     right: 0;
     width: 200px;
     height: 500px;
-    background-image: url(../assets/icons/decoracao.png);
+    background-image: url('../assets/icons/decoracao.png');
     background-size: cover;
     background-position: right;
     background-repeat: no-repeat;
@@ -1121,7 +1121,7 @@ footer::before {
 }
 
 .bg-feedback {
-    background-image: url(../assets/banners/banner-feedback.jpg);
+    background-image: url('../assets/banners/banner-feedback.jpg');
     background-size: cover;
     background-position: top;
     padding: 80px 0;
@@ -1134,7 +1134,7 @@ footer::before {
     left: 0;
     width: 200px;
     height: 500px;
-    background-image: url(../assets/icons/decoracao.png);
+    background-image: url('../assets/icons/decoracao.png');
     background-size: cover;
     background-position: right;
     background-repeat: no-repeat;
@@ -1155,8 +1155,10 @@ footer::before {
     margin-top: 6%;
 }
 
+
+
 .bg-parceiros {
-    background-image: url(../assets/images/banners/bg-parceiros.png);
+    background-image: url('../assets/images/banners/bg-parceiros.png');
     background-size: cover;
     background-position: top;
     padding: 80px 0;
@@ -1170,7 +1172,7 @@ footer::before {
     left: 90%;
     width: 10%;
     height: 100%;
-    background-image: url(../assets/icons/decoracao-right.png);
+    background-image: url('../assets/icons/decoracao-right.png');
     background-size: cover;
     background-position: left;
     background-repeat: no-repeat;
@@ -1185,14 +1187,14 @@ footer::before {
     left: 0%;
     width: 10%;
     height: 100%;
-    background-image: url(../assets/icons/decoracao.png);
+    background-image: url('../assets/icons/decoracao.png');
     background-size: cover;
     background-position: right;
     background-repeat: no-repeat;
 }
 
 .bg-vendas{
-    background-image: url(../assets/images/banners/bg-vendas.webp);
+    background-image: url('../assets/images/banners/bg-vendas.webp');
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -1214,12 +1216,14 @@ footer::before {
 }
 
 .bg-apoio {
-    background-image: url(../assets/images/banners/bg-apoio.webp);
+    background-image: url('../assets/images/banners/bg-apoio.webp');
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
     padding: 200px ;
 }
+
+
 
 .bg-moments{
     background-image: url('../assets/images/banners/bg-moments.jpg');
@@ -1230,6 +1234,37 @@ footer::before {
     height: auto;
 }
 
+.bg-social {
+    background-image: url('../assets/images/banners/bg-social.png');
+    background-size: cover;
+    background-position: top;
+    padding: 20% 1.5%;
+    position: relative;
+}
+
+.bg-aquiAgora {
+    background-image: url('../assets/images/banners/bg-aquiagora.webp');
+    background-size: cover;
+    background-position: top;
+    padding: 20% 1.5%;
+    position: relative;
+}
+
+.videoAquiAgr{
+    border-radius: 12px;
+    background-color: #fff;
+    width: 644px;
+    height: 326px;
+}
+
+.bg-redes {
+    background-image: url('../assets/images/banners/bg-redes.png');
+    background-size: cover;
+    background-position: top;
+    padding: 15% 1.5%;
+    position: relative;
+}
+
 .imgWhite{
     width: 200px;
     height: auto;
@@ -1238,6 +1273,53 @@ footer::before {
     background-color: #fff;
 }
 
+.imgRedes{
+    width: 90px;
+    height: 90px;
+    padding: 40px;
+    border-radius: 12px;
+    background-color: #fff;
+}
+
+.boxDP {
+    padding: 5px 15px;
+    border-radius: 20px;
+    display: flex !important;
+    flex-direction: row;
+    margin: 0 5px;
+}
+
+.dp-circle {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #fff;
+  }
+  
+
+  .txt-dp{
+    font-size: 11px;
+    line-height: 13px;
+    margin-top: -0.6vw;
+  }
+
+ .star-rating{
+    margin-left: -1.6vw;
+    margin-top: -0.3vw;
+ } 
+
+ .star-rating2{
+    margin-left: -8.6vw;
+    margin-top: -0.3vw;
+ } 
+
+ .left-dp {
+    margin-left: 1rem;
+ }
+
+  .dp-row {
+    margin: 20px;
+  }
 
 
 
@@ -1308,6 +1390,7 @@ footer::before {
     margin: 0 5px;
 }
 
+
 .logoParceiro {
     width: 100%;
     height: 100%;
@@ -1340,6 +1423,30 @@ footer::before {
     margin: 0 5px;
 }
 
+.boxPerson {
+    padding: 25px 15px;
+    border-radius: 20px;
+    display: flex !important;
+    flex-direction: row;
+    margin: 0 5px;
+}
+
+.imgPerson {
+    width: 100%;
+}
+
+
+.imgPerson{
+    width: 180px;
+    height: auto;
+    border-radius: 30px;
+    background-color: #3d4064;
+}
+
+.bg-cinza{
+    background-color: #14243d;
+}
+
 .imagemPessoa {
     width: 100%;
     height: 100%;
@@ -1366,6 +1473,7 @@ footer::before {
     padding: 10px 15px;
     margin: 0 10px;
 }
+
 
 .bg-redes-sociais {
     background-image: url(../assets/banners/banner-redes-sociais.jpg);
@@ -1467,6 +1575,17 @@ footer::before {
 
 }
 
+@media screen and (min-width: 1100px) and (max-width: 1280px) {
+    .boxWidth{
+        width: 70% !important;
+        }
+}
+@media screen and (min-width: 1281px) and (max-width: 1402px) {
+    .boxWidth{
+        width: 55% !important;
+        }
+}
+
 @media screen and (min-width: 991px) {
     .w-lg-fit-content {
         width: fit-content;
@@ -1486,6 +1605,7 @@ footer::before {
         width: 60%;
         height: auto;
     }
+
     .bg-ingresso{
         width: 60%;
         height: auto;
@@ -1624,7 +1744,23 @@ footer::before {
       }
 
       .momentsNone{
-        display: none;
+        display: none !important;
+    }
+
+    .boxPerson {
+        flex-direction: column;
+    }
+
+    .bg-dp {
+        position: relative;
+        margin-top: 16% !important;
+    }
+
+}
+
+@media screen and (min-width: 332px) and (max-width: 375px) {
+    .boxPerson {
+        padding: 0% 0 0% 0.8% !important;
     }
 
 }
@@ -1638,6 +1774,20 @@ footer::before {
 
     .iconHumor{
         display: none !important;
+    }
+}
+
+@media screen and (min-width: 380px) and (max-width: 414px) {
+    .boxPerson {
+        padding: 0% 0 0% 1.1% !important;
+
+    }
+}
+
+@media screen and (min-width: 416px) and (max-width: 428px) {
+    .boxPerson {
+        padding: 0% 0 0% 2.5 !important;
+
     }
 }
 
@@ -1686,9 +1836,26 @@ footer::before {
         padding-left: 6%;
     }
 
-    .bg-vendas, .bg-apoio{
+    .bg-vendas, .bg-apoio, .bg-moments{
         padding: 60px 0 !important;
     }
+
+    .boxMoments {
+        padding: 2% 0 2% 2.5% !important;
+    }
+
+    .bg-redes {
+        padding: 2% 0 30% 2.5% !important;
+    }
+
+    .bg-map {
+        width: 100% !important;
+    }
+
+    /* .boxPerson {
+        padding: 2% 0 2% 3.5% !important;
+
+    } */
 
     .small,
     small {
@@ -1810,6 +1977,11 @@ footer::before {
 }
 
 @media screen and (max-width: 330px) {
+    .boxPerson {
+        padding: 0% 0 0% 0.3% !important;
+    }
+
+
     p {
         font-size: 16px;
     }

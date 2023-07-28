@@ -12,19 +12,25 @@
                             <a href="#inicio" class="linksMenu linha-abaixo-hover inicio">Início</a>
                         </div>
                         <div class="col-auto">
-                            <a href="#institucional" class="linksMenu linha-abaixo-hover institucional">Institucional</a>
+                            <a href="#patrocinadores" class="linksMenu linha-abaixo-hover institucional">Patrocinadores</a>
                         </div>
                         <div class="col-auto">
-                            <a href="#agenciamento-artistico" class="linksMenu linha-abaixo-hover agenciamento">Agenciamento</a>
+                            <a href="#marvio-lucio" class="linksMenu linha-abaixo-hover agenciamento">Marvio Lúcio</a>
                         </div>
                         <div class="col-auto">
-                            <a href="#agenda" class="linksMenu linha-abaixo-hover agenda">Agenda</a>
+                            <a href="#compre-aqui" class="linksMenu linha-abaixo-hover agenda">Compre aqui</a>
                         </div>
                         <div class="col-auto">
-                            <a href="#parceiros" class="linksMenu linha-abaixo-hover parceiros">Parceiros</a>
+                            <a href="#tbt" class="linksMenu linha-abaixo-hover parceiros">TBT</a>
                         </div>
                         <div class="col-auto">
-                            <a href="#contato" class="linksMenu linha-abaixo-hover contato">Contato</a>
+                            <a href="#voce-esta-aqui" class="linksMenu linha-abaixo-hover contato">Social</a>
+                        </div>
+                        <div class="col-auto">
+                            <a href="#personagens" class="linksMenu linha-abaixo-hover contato">Personagens</a>
+                        </div>
+                        <div class="col-auto">
+                            <a href="#local-do-evento" class="linksMenu linha-abaixo-hover contato">Local do evento</a>
                         </div>
 
                         <div class="col-auto d-flex flex-row gap-2 ps-3">
@@ -57,11 +63,14 @@
                         <div class="topo-fechar"></div>
                         <ul class="mb-0 ps-0 pb-3">
                             <li class="fundo-alternado"><a href="#inicio" class="linksMenu linha-abaixo-hover inicio">Início</a></li>
-                            <li><a href="#institucional" class="linksMenu linha-abaixo-hover institucional">Institucional</a></li>
-                            <li class="fundo-alternado"><a href="#agenciamento-artistico" class="linksMenu linha-abaixo-hover agenciamento">Agenciamento</a></li>
-                            <li><a href="#agenda" class="linksMenu linha-abaixo-hover agenda">Agenda</a></li>
-                            <li class="fundo-alternado"><a href="#parceiros" class="linksMenu linha-abaixo-hover parceiros">Parceiros</a></li>
-                            <li><a href="#contato" class="linksMenu linha-abaixo-hover contato">Contato</a></li>
+                            <li><a href="#patrocinadores" class="linksMenu linha-abaixo-hover institucional">Patrocinadores</a></li>
+                            <li class="fundo-alternado"><a href="#marvio-lucio" class="linksMenu linha-abaixo-hover agenciamento">Marvio Lúcio</a></li>
+                            <li><a href="#compre-aqui" class="linksMenu linha-abaixo-hover agenda">Compre aqui</a></li>
+                            <li class="fundo-alternado"><a href="#ponto-de-vendas" class="linksMenu linha-abaixo-hover parceiros">Ponto de vendas</a></li>
+                            <li><a href="#tbt" class="linksMenu linha-abaixo-hover contato">TBT</a></li>
+                            <li class="fundo-alternado"><a href="#voce-esta-aqui" class="linksMenu linha-abaixo-hover parceiros">Social</a></li>
+                            <li><a href="#personagens" class="linksMenu linha-abaixo-hover contato">Personagens</a></li>
+                            <li class="fundo-alternado"><a href="#local-do-evento" class="linksMenu linha-abaixo-hover parceiros">Local do Evento</a></li>
                         </ul>
                     </div>
 

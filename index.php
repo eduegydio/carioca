@@ -5,13 +5,14 @@
     <meta charset="utf-8">
     <title>IR Produções e eventos</title>
     <meta name="Description" content="Empresa de organização de eventos. Trabalhamos na concepção e gestão de eventos empresariais e sociais. Atuamos com análise de perfil do cliente, planejamento, organização e produção do evento." />
-    <link rel="alternate" href="https://irproducoes.com.br/inicio/" hreflang="pt-br" />
-    <link rel="canonical" href="https://irproducoes.com.br/inicio/" />
+    <link rel="alternate" href="https://irproducoes.com.br/cariocaemportovelho/" hreflang="pt-br" />
+    <link rel="canonical" href="https://irproducoes.com.br/cariocaemportovelho/" />
     <?php include('include/head.php'); ?>
 </head>
 
 <body>
     <?php include('include/menu.php'); ?>
+    
 
 <section id="bg-1">
     <div class="container">
@@ -25,9 +26,11 @@
     </div>
 </section>
 
+
+
 <section id="bg-2">
 <div class="bg-parceiros position-relative mt-5 bg-sobre" id="feedback-da-galera">
-        <div class="container py-5">
+        <div class="container py-5" id="patrocinadores">
             <div class="row">
                 <div class="col-12 text-center">
                     <h1><b>Patrocinadores</b></h1>
@@ -62,7 +65,7 @@
     </div>
 </section>
 
-<section>
+<section id="marvio-lucio">
     <div class="container mt-5 sobreCarioca">
         <div class="row">
         <div class="col-sm-12 text-center mt-5">
@@ -89,7 +92,7 @@
 </section>
 
 
-<section id="">
+<section id="compre-aqui">
     <div class="container mt-5 bg-ingresso">
         <div class="row">
                 <div class="col-auto mt-5">
@@ -108,7 +111,7 @@
 </section>
 
 
-<section>
+<section id="">
     <div class="container mt-0 bg-5">
         <div class="row">
             <div class="col-sm-6 mt-5">
@@ -139,7 +142,7 @@
 </section>
 
 <section id="bg-6">
-    <div class="bg-vendas">
+    <div class="bg-vendas" id="ponto-de-vendas">
         <div class="container mt-0">
             <div class="row">
                 <div class="col-12 text-center">
@@ -160,15 +163,23 @@
 
 
 
-<!-- FAZER SECTION TBT -->
-<!-- FAZER SECTION TBT -->
-<!-- FAZER SECTION TBT -->
-<!-- FAZER SECTION TBT -->
-<!-- FAZER SECTION TBT -->
+<section id="tbt">
+    <div class="">
+        <div class="container mt-5 py-5 bg-tbt">
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <h1><b>#TBT</b></h1>
+                    <p class="mt-3">Fotos dos melhores momentos do evento</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
 
 
 <section id="bg-8">
-    <div class="bg-apoio">
+    <div class="bg-apoio" id="apoio">
     <div class="container mt-5">
     <div class="row justify-content-center align-items-center">
         <div class="col-12 text-center">
@@ -178,17 +189,17 @@
             <img src="assets/images/holanda-2.png" alt="">
         </div>
         <div class="col-auto">
-            <img src="assets/images/holanda-2.png" alt="">
+            <img src="assets/images/azul-malhas.png" alt="">
         </div>
         <div class="col-auto">
-            <img src="assets/images/holanda-2.png" alt="">
+            <img src="assets/images/dduwe.png" alt="">
         </div>
         </div>
       </div>
     </div>
 </section>
 
-<section>
+<section id="voce-esta-aqui">
     <div class="bg-moments">
         <div class="container">
             <div class="row justify-content-center align-items-center">
@@ -238,10 +249,347 @@
     </div>
 </section>
 
-    <br><br>
-    <br><br>
-    <br><br>
-    <br><br>
+<section id="social">
+    <div class="bg-social">
+        <div class="container">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-sm-12 text-center">
+                    <h1><b>Apoio Social</b></h1>
+                    <p class="mt-3">O evento contou com apoio da AMA-RO <br>
+                        (texto falando sobre a ama) assim levando alegria <br>
+                        e inclusão para todos</p>
+                </div>
+                <div class="col-auto mt-3">
+                    <img src="assets/images/carioca-social.png" alt="">
+                </div>
+                <div class="col-auto mt-5">
+                    <img src="assets/images/amaro.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="personagens">
+    <div class="">
+        <div class="container mt-5 py-5">
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <h1><b>Personagens</b></h1>
+                </div>
+
+                <!-- Desktop -->
+                <div class="col-10 col-md-8 col-lg-6 mx-auto mt-0 boxWidth carrosselFeedback momentsNone">
+                    <div class="boxPerson">
+                        <div class="col-auto mx-2 mt-5">
+                            <div class="imgPerson mt-3 text-center">
+                              <img class="bg-cinza" src="assets/images/Bolsonabo.png" alt="">
+                              <p class="py-3"><b>Bolsonabo <br><br></b></p>
+                            </div>
+                        </div>
+                        <div class="col-auto mx-2 mt-5">
+                            <div class="imgPerson mt-3 text-center">
+                              <img class="bg-cinza" src="assets/images/Fredi-mercuri.png" alt="">
+                              <p class="py-3"><b>Freddie Mercury</b></p>
+                            </div>
+                        </div>
+                        <div class="col-auto mx-2 mt-5">
+                            <div class="imgPerson mt-3 text-center">
+                              <img class="bg-cinza" src="assets/images/Moraes-Moreira.png" alt="">
+                              <p class="py-3"><b>Moraes Moreira</b></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="boxPerson">
+                        <div class="col-auto mx-2 mt-5">
+                            <div class="imgPerson mt-3 text-center">
+                              <img class="bg-cinza" src="assets/images/Gato-de-melo.png" alt="">
+                              <p class="py-3"><b>Gato de Melo</b></p>
+                            </div>
+                        </div>
+                        <div class="col-auto mx-2 mt-5">
+                            <div class="imgPerson mt-3 text-center">
+                              <img class="bg-cinza" src="assets/images/Renato-Russo.png" alt="">
+                              <p class="py-3"><b>Renato Russo</b></p>
+                            </div>
+                        </div>
+                        <div class="col-auto mx-2 mt-5">
+                            <div class="imgPerson mt-3 text-center">
+                              <img class="bg-cinza" src="assets/images/Sergio-moro.png" alt="">
+                              <p class="py-3"><b>Sergio <br> Moro</b></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="boxPerson">
+                        <div class="col-auto mx-2 mt-5">
+                            <div class="imgPerson mt-3 text-center">
+                              <img class="bg-cinza" src="assets/images/Lele-santos.png" alt="">
+                              <p class="py-3"><b>Lele <br> Santos </b></p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Mobile -->
+
+                <div class="col-10 col-md-8 col-lg-6 mx-auto mt-0 boxWidth carrosselFeedback momentsNoneMobile">
+                    <div class="boxPerson">
+                        <div class="col-auto mx-2 mt-2">
+                            <div class="imgPerson mt-3 text-center">
+                              <img class="bg-cinza" src="assets/images/Bolsonabo.png" alt="">
+                              <p class="py-3"><b>Bolsonabo <br><br></b></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="boxPerson">
+                        <div class="col-auto mx-2 mt-2">
+                            <div class="imgPerson mt-3 text-center">
+                              <img class="bg-cinza" src="assets/images/Fredi-mercuri.png" alt="">
+                              <p class="py-3"><b>Freddie Mercury</b></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="boxPerson">
+                        <div class="col-auto mx-2 mt-2">
+                            <div class="imgPerson mt-3 text-center">
+                              <img class="bg-cinza" src="assets/images/Moraes-Moreira.png" alt="">
+                              <p class="py-3"><b>Moraes Moreira</b></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="boxPerson">
+                        <div class="col-auto mx-2 mt-2">
+                            <div class="imgPerson mt-3 text-center">
+                              <img class="bg-cinza" src="assets/images/Gato-de-melo.png" alt="">
+                              <p class="py-3"><b>Gato de Melo</b></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="boxPerson">
+                        <div class="col-auto mx-2 mt-2">
+                            <div class="imgPerson mt-3 text-center">
+                              <img class="bg-cinza" src="assets/images/Renato-Russo.png" alt="">
+                              <p class="py-3"><b>Renato Russo</b></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="boxPerson">
+                        <div class="col-auto mx-2 mt-2">
+                            <div class="imgPerson mt-3 text-center">
+                              <img class="bg-cinza" src="assets/images/Sergio-moro.png" alt="">
+                              <p class="py-3"><b>Sergio <br> Moro</b></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="boxPerson">
+                        <div class="col-auto mx-2 mt-2">
+                            <div class="imgPerson mt-3 text-center">
+                              <img class="bg-cinza" src="assets/images/Lele-santos.png" alt="">
+                              <p class="py-3"><b>Lele <br> Santos </b></p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section id="aqui-e-agora">
+    <div class="bg-aquiAgora">
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <h1><b>#Aqui e Agora</b></h1>
+                        <p>Por trás das câmeras</p>
+                </div>
+            </div>
+            <div class="row justify-content-center align-items-center mt-3">
+                <div class="videoAquiAgr text-center mt-2">
+                        Video
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section id="depoimentos">
+    <div class="">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center mt-5 bg-dp ">
+                    <h1><b>Depoimentos</b></h1>
+                </div>
+            </div>
+
+            <!-- Desktop -->
+
+            <div class="row dp-row mt-5 carrosselFeedback momentsNone">
+                <div class="boxDP justify-content-center align-items-center">
+                    <div class="col-auto">
+                        <div class="dp-circle"></div>
+                    </div>
+                    <div class="col-auto left-dp">
+                        <h5><b>Nome Exemplo</b></h5>
+                        <ul class="star-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </ul>
+                        <p class="txt-dp">Lorem ipsum dolor sit amet, consectetuer <br> 
+                        elit, sed diam nonummy nibh euismod tincidunt <br> 
+                        ut laoreet dolore magna aliquam erat volutpat</p>
+                    </div>
+
+                    <div class="col-auto">
+                        <div class="dp-circle"></div>
+                    </div>
+                    <div class="col-auto left-dp">
+                        <h5><b>Nome Exemplo</b></h5>
+                        <ul class="star-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </ul>
+                        <p class="txt-dp">Lorem ipsum dolor sit amet, consectetuer <br> 
+                        elit, sed diam nonummy nibh euismod tincidunt <br> 
+                        ut laoreet dolore magna aliquam erat volutpat</p>
+                    </div>
+                </div>
+
+                <div class="boxDP justify-content-center align-items-center">
+                    <div class="col-auto">
+                        <div class="dp-circle"></div>
+                    </div>
+                    <div class="col-auto left-dp">
+                        <h5><b>Nome Exemplo</b></h5>
+                        <ul class="star-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </ul>
+                        <p class="txt-dp">Lorem ipsum dolor sit amet, consectetuer  <br> 
+                        elit, sed diam nonummy nibh euismod tincidunt <br> 
+                        ut laoreet dolore magna aliquam erat volutpat</p>
+                    </div>
+
+                    <div class="col-auto">
+                        <div class="dp-circle"></div>
+                    </div>
+                    <div class="col-auto left-dp">
+                        <h5><b>Nome Exemplo</b></h5>
+                        <ul class="star-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </ul>
+                        <p class="txt-dp">Lorem ipsum dolor sit amet, consectetuer <br> 
+                        elit, sed diam nonummy nibh euismod tincidunt <br> 
+                        ut laoreet dolore magna aliquam erat volutpat</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Mobile -->
+
+            <div class="row dp-row mt-5 carrosselFeedback momentsNoneMobile">
+                <div class="boxDP justify-content-center align-items-center">
+                    <div class="col-sm-12">
+                        <div class="dp-circle"></div>
+                    </div>
+                    <div class="col-sm-12 left-dp">
+                        <h5><b>Nome Exemplo</b></h5>
+                        <ul class="star-rating2">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </ul>
+                        <p class="txt-dp">Lorem ipsum dolor sit amet, consectetuer <br> 
+                        elit, sed diam nonummy nibh euismod tincidunt <br> 
+                        ut laoreet dolore magna aliquam erat volutpat</p>
+                    </div>
+                </div>
+
+                <div class="boxDP justify-content-center align-items-center">
+                    <div class="col-sm-12">
+                        <div class="dp-circle"></div>
+                    </div>
+                    <div class="col-sm-12 left-dp">
+                        <h5><b>Nome Exemplo</b></h5>
+                        <ul class="star-rating2">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </ul>
+                        <p class="txt-dp">Lorem ipsum dolor sit amet, consectetuer <br> 
+                        elit, sed diam nonummy nibh euismod tincidunt <br> 
+                        ut laoreet dolore magna aliquam erat volutpat</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="bg-redes">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 mt-5 text-center">
+                    <h1><b>Redes Sociais</b></h1>
+                </div>
+            </div>
+
+            <div class="row justify-content-center align-items-center">
+                    <div class="col-auto mt-5">
+                        <div class="imgRedes mt-3">img</div>
+                        <div class="imgRedes mt-3">img</div>
+                        <div class="imgRedes mt-3">img</div>
+                    </div>
+                    <div class="col-auto mt-5">
+                        <div class="imgRedes mt-3">img</div>
+                        <div class="imgRedes mt-3">img</div>
+                        <div class="imgRedes mt-3">img</div>
+                    </div>
+                    <div class="col-auto mt-5">
+                        <div class="imgRedes mt-3">img</div>
+                        <div class="imgRedes mt-3">img</div>
+                        <div class="imgRedes mt-3">img</div>
+                    </div>
+                </div>
+        </div>
+    </div>
+</section>
+
+<section id="local-do-evento">
+    <div class="container py-5 mt-5">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h1><b>Local do Evento</b></h1>
+            </div>
+            <div class="text-center mt-5">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3943.241661367083!2d-63.884750425845!3d-8.763319289482647!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x92325cbe9bdd5689%3A0x54d24ac42f92b622!2sR.%20Uruguai%2C%201149%20-%20Nova%20Porto%20Velho%2C%20Porto%20Velho%20-%20RO%2C%2076820-132!5e0!3m2!1spt-BR!2sbr!4v1690063646207!5m2!1spt-BR!2sbr" width="60%" height="350" style="border:15px solid; border-color: #ff8300; border-radius:40px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="box-shadow bg-map" title="mapa"></iframe>
+            </div>
+    </div>
+</section>
 
  <!-- Footer !-->
  <?php include('include/footer.php'); ?>

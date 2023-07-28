@@ -11,13 +11,9 @@
                 </p>
                 !-->
                 <p class="alt-small light justify">
-                    Empresa de organização de eventos. Trabalhamos na concepção e gestão de eventos empresariais e sociais. Atuamos com análise de perfil do cliente, planejamento, organização e produção do evento.
-                    <br><br>
-                    Planejamento, organização, coordenação e execução das etapas necessárias à realização dos mais variados tipos de eventos, Shows, Espetáculos teatrais, stand Up Comedy, Culturais, Técnico-científicos, corporativo e Público.
-                    <br><br>
-                    Elaboração de projeto comercial, objetivando a capitalização e o aumento de receita.
-                    <br><br>
-                    Operação de ações promocionais coordenando recursos humanos e materiais, visando a divulgação de produtos, serviços e consolidação de marcas.
+                A IR PRODUÇÕES E EVENTOS é uma empresa de eventos formalizada <br> 
+                há três <span class="numero">(3)</span> anos, que chega ao mercado com uma história <br>
+                de mais de <span class="numero">13</span> anos de trabalho responsável e comprometido
                 </p>
 
                 <div class="ps-3 mt-4 border-orange-left2">
@@ -40,6 +36,23 @@
                     <a href="#redes-sociais" class="alt-down light d-block w-fit-content">Redes Sociais</a>
                     <a href="#contato" class="alt-down light d-block w-fit-content contato">Contato</a>
                     <a href="#localizacao" class="alt-down light d-block w-fit-content">Localização</a>
+                </div>
+            </div>
+            <div class="col-md-4 col-lg-3 ms-auto mt-3 mt-md-0">
+                <div class="border-orange-left2 d-flex flex-column gap-1">
+                    <a href="#inicio" class="alt-down light d-block w-fit-content inicio">Início</a>
+                    <a href="#patrocinadores" class="alt-down light d-block w-fit-content institucional">Patrocinadores</a>
+                    <a href="#marvio-lucio" class="alt-down light d-block w-fit-content agenciamento">Marvio Lúcio</a>
+                    <a href="#compre-aqui" class="alt-down light d-block w-fit-content">Compre aqui</a>
+                    <a href="#ponto-de-vendas" class="alt-down light d-block w-fit-content">Ponto de vendas</a>
+                    <a href="#tbt" class="alt-down light d-block w-fit-content agenda">TBT</a>
+                    <a href="#apoio" class="alt-down light d-block w-fit-content">Apoio</a>
+                    <a href="#voce-esta-aqui" class="alt-down light d-block w-fit-content parceiros">Você esta aqui</a>
+                    <a href="#voce-esta-aqui" class="alt-down light d-block w-fit-content">Social</a>
+                    <a href="#personagens" class="alt-down light d-block w-fit-content contato">Personagens</a>
+                    <a href="#aqui-e-agora" class="alt-down light d-block w-fit-content">Aqui e agora</a>
+                    <a href="#depoimentos" class="alt-down light d-block w-fit-content">Depoimentos</a>
+                    <a href="#local-do-evento" class="alt-down light d-block w-fit-content">Local do evento</a>
                 </div>
             </div>
 
