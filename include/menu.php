@@ -36,17 +36,17 @@
                         <div class="col-auto d-flex flex-row gap-2 ps-3">
                             <div class="col-auto">
                                 <a href="https://api.whatsapp.com/send?1=pt_BR&phone=5569999429345" target="_blank">
-                                    <img src="<?= $base ?>assets/icons/whatsapp-icon.webp" alt="Whatsapp" class="icones-menu">
+                                    <img src="assets/icons/whatsapp-icon.webp" alt="Whatsapp" class="icones-menu">
                                 </a>
                             </div>
                             <div class="col-auto">
                                 <a href="https://www.facebook.com/irproducoes/" target="_blank">
-                                    <img src="<?= $base ?>assets/icons/facebook-icon.webp" alt="Facebook" class="icones-menu">
+                                    <img src="assets/icons/facebook-icon.webp" alt="Facebook" class="icones-menu">
                                 </a>
                             </div>
                             <div class="col-auto">
                                 <a href="https://www.instagram.com/irproducoes.oficial/" target="_blank">
-                                    <img src="<?= $base ?>assets/icons/instagram-icon.webp" alt="Instagram" class="icones-menu">
+                                    <img src="assets/icons/instagram-icon.webp" alt="Instagram" class="icones-menu">
                                 </a>
                             </div>
                         </div>

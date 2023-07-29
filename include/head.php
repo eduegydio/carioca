@@ -9,7 +9,7 @@ if ($_SERVER['HTTP_HOST'] == 'localhost') {
     $base = "http://" . $_SERVER['HTTP_HOST'] . "/" . $diretorio . "/";
     $pagina = $url[0];
 } else {
-    $base = "https://" . $_SERVER['HTTP_HOST']."/inicio/";
+    $base = "https://" . $_SERVER['HTTP_HOST']."/cariocaemportovelho/teste-carioca/";
     $nome_arquivo = $url[1];
 }
 ?>

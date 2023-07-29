@@ -1359,7 +1359,7 @@ footer::before {
 }
 
 #bg-ingresso {
-    background-image: url('/carioca/assets/images/banners/bg-4.webp');
+    background-image: url('../assets/images/banners/bg-4.webp');
     background-size:cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -1604,6 +1604,11 @@ footer::before {
         width: 55% !important;
         }
 }
+@media screen and (min-width: 770px) and (max-width: 995px) {
+   .footer-menu{
+    margin-top: 1rem !important;
+   }
+}
 
 @media screen and (min-width: 991px) {
     .w-lg-fit-content {
@@ -1628,7 +1633,7 @@ footer::before {
     .bg-ingresso{
         width: 60%;
         height: auto;
-        background-image: url('/carioca/assets/images/banners/bg-4.webp');
+        background-image: url('../assets/images/banners/bg-4.webp');
         background-size:cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -1637,12 +1642,12 @@ footer::before {
 
     .leftVendas {
         position: relative;
-        left: 30%; 
+        left: 32%; 
       }
       
       .leftVendas2 {
         position: relative;
-        left: -6vw; 
+        left: -16vw; 
       }
     
 }
@@ -1746,7 +1751,7 @@ footer::before {
     .bg-ingresso{
         width: 100%;
         height: auto;
-        background-image: url('/carioca/assets/images/banners/mobile/bg-4Mobile.webp');
+        background-image: url('../assets/images/banners/mobile/bg-4Mobile.webp');
         background-size:cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -1816,11 +1821,10 @@ footer::before {
 
     /* Banner home */
     #bg-1 {
-        background-image: url('../assets/images/banners/mobile/bg-1Mobile.webp');
+        background-image: url('../assets/images/banners/mobile/bg-1Mobile2.webp');
         background-size:auto;
         background-position: center;
         background-repeat: no-repeat;
-        padding: 17rem 0px;
     }
 
     .bg-moments{
@@ -1839,7 +1843,7 @@ footer::before {
 
     #bg-2 {
         position: relative;
-        margin-top: -35%;
+        margin-top: -25%;
     }
 
     .txtHumor{

@@ -5,8 +5,8 @@
     <meta charset="utf-8">
     <title>IR Produções e eventos</title>
     <meta name="Description" content="Empresa de organização de eventos. Trabalhamos na concepção e gestão de eventos empresariais e sociais. Atuamos com análise de perfil do cliente, planejamento, organização e produção do evento." />
-    <link rel="alternate" href="https://irproducoes.com.br/cariocaemportovelho/teste/" hreflang="pt-br" />
-    <link rel="canonical" href="https://irproducoes.com.br/cariocaemportovelho/teste/" />
+    <link rel="alternate" href="https://irproducoes.com.br/cariocaemportovelho/teste-carioca/" hreflang="pt-br" />
+    <link rel="canonical" href="https://irproducoes.com.br/cariocaemportovelho/teste-carioca/" />
     <?php include('include/head.php'); ?>
 </head>
 
@@ -18,8 +18,8 @@
 <section id="bg-1" class="">
     <div class="container">
         <div class="row">
-            <div class="col-sm-6"></div>
-            <div class="col-sm-6 px-5 txtBG-1">
+            <div class="col-sm-6 momentsNone"></div>
+            <div class="col-sm-6 px-5 txtBG-1 momentsNone">
                 <h2><b>Garanta já seu ingresso!</b></h2>
                 <p>Lote promocional disponível</p>
 
@@ -44,7 +44,7 @@
                 <p class="sub-text ff-montserrat"><i class="fas fa-map-marker-alt" style="color: #ff8000;"></i> <b>Teatro Palácio das Artes</b></p>
                 <a href="#" class="btnLink btn-yellow d-block w-fit-content mt-4 mx-auto mx-lg-0" target="_blank"><h5><b>Compre aqui</b></h5></a>
             </div>
-            <div class="btnRolagem cursor-pointer momentsNoneMobile mt-5"></div>   
+            <!-- <div class="btnRolagem cursor-pointer momentsNoneMobile mt-5"></div>    -->
         </div>
     </div>
 </section>
@@ -61,30 +61,24 @@
 
                 <div class="col-10 col-md-8 col-lg-6 mx-auto mt-5 carrosselFeedback momentsNone">
                     <div class="boxParceiros">
-                        <div class="col-3 mx-2">
+                        <div class="col-auto mx-2">
                             <img src="assets/images/patrocinadores/tim.webp" alt="">
                         </div>
-                        <div class="col-3 mx-2">
-                            <img src="assets/images/patrocinadores/cartao-todos.webp" alt="">
-                        </div>
-                        <div class="col-3 mx-2">
+                        <div class="col-auto mx-2">
                             <img src="assets/images/patrocinadores/dydyo.webp" alt="">
                         </div>
-                        <div class="col-3 mx-2">
+                        <div class="col-auto mx-2">
+                            <img src="assets/images/patrocinadores/holanda.webp" alt="">
+                        </div>
+                        <div class="col-auto mx-2">
                             <img src="assets/images/patrocinadores/caphas-burguer.webp" alt="">
                         </div>
                     </div>
                     <div class="boxParceiros">
-                        <div class="col-3 mx-2">
-                            <img src="assets/images/patrocinadores/holanda.webp" alt="">
-                        </div>
-                        <div class="col-3 mx-2">
-                            <img src="assets/images/patrocinadores/nissan.webp" alt="">
-                        </div>
-                        <div class="col-3 mx-2">
+                        <div class="col-auto mx-2">
                             <img src="assets/images/patrocinadores/acd.webp" alt="">
                         </div>
-                        <div class="col-3 mx-2">
+                        <div class="col-auto mx-2">
                             <img src="assets/images/patrocinadores/olla.webp" alt="">
                         </div>
                     </div>
@@ -96,19 +90,14 @@
                     <div class="boxParceiros">
                         <div class="col-12 mx-0 row justify-content-center align-items-center">
                             <img src="assets/images/patrocinadores/tim.webp" alt="">
-                            <img src="assets/images/patrocinadores/cartao-todos.webp" alt="">
-                        </div>
-                    </div>
-                    <div class="boxParceiros">
-                        <div class="col-12 mx-0 row justify-content-center align-items-center">
                             <img src="assets/images/patrocinadores/dydyo.webp" alt="">
-                            <img src="assets/images/patrocinadores/caphas-burguer.webp" alt="">
+                           
                         </div>
                     </div>
                     <div class="boxParceiros">
                         <div class="col-12 mx-0 row justify-content-center align-items-center">
-                            <img src="assets/images/patrocinadores/holanda.webp" alt="">
-                            <img src="assets/images/patrocinadores/nissan.webp" alt="">
+                        <img src="assets/images/patrocinadores/holanda.webp" alt="">
+                            <img src="assets/images/patrocinadores/caphas-burguer.webp" alt="">
                         </div>
                     </div>
                     <div class="boxParceiros">
@@ -313,9 +302,8 @@
             <div class="row justify-content-center align-items-center">
                 <div class="col-sm-12 text-center">
                     <h1><b>Apoio Social</b></h1>
-                    <p class="mt-3">O evento contou com apoio da AMA-RO <br>
-                        (texto falando sobre a ama) assim levando alegria <br>
-                        e inclusão para todos</p>
+                    <p class="mt-3">O evento contou com apoio da AMA-RO <br class="momentsNone">
+                         assim levando alegria e inclusão para todos</p>
                 </div>
                 <div class="col-auto mt-3">
                     <img src="assets/images/carioca-social.webp" alt="">

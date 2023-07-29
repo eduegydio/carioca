@@ -38,7 +38,7 @@
                     <a href="#localizacao" class="alt-down light d-block w-fit-content">Localização</a>
                 </div>
             </div>
-            <div class="col-md-4 col-lg-3 ms-auto mt-3 mt-md-0">
+            <div class="col-md-4 col-lg-3 ms-auto mt-3 mt-md-0 footer-menu">
                 <div class="border-orange-left2 d-flex flex-column gap-1">
                     <a href="#inicio" class="alt-down light d-block w-fit-content inicio">Início</a>
                     <a href="#patrocinadores" class="alt-down light d-block w-fit-content institucional">Patrocinadores</a>
