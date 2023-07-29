@@ -3,7 +3,7 @@
         <div class="container">
             <div class="row justify-content-between align-items-center">
                 <div class="col-auto">
-                    <a href="<?= $base ?>"><img src="<?= $base ?>assets/images/logo-ir-producoes.png" alt="IR - Producoes" class="menuLogo"></a>
+                    <a href="<?= $base ?>"><img src="<?= $base ?>assets/images/logo-ir-producoes.webp" alt="IR - Producoes" class="menuLogo"></a>
                 </div>
 
                 <div class="col-auto d-none d-lg-block">
@@ -36,17 +36,17 @@
                         <div class="col-auto d-flex flex-row gap-2 ps-3">
                             <div class="col-auto">
                                 <a href="https://api.whatsapp.com/send?1=pt_BR&phone=5569999429345" target="_blank">
-                                    <img src="<?= $base ?>assets/icons/whatsapp-icon.png" alt="Whatsapp" class="icones-menu">
+                                    <img src="<?= $base ?>assets/icons/whatsapp-icon.webp" alt="Whatsapp" class="icones-menu">
                                 </a>
                             </div>
                             <div class="col-auto">
                                 <a href="https://www.facebook.com/irproducoes/" target="_blank">
-                                    <img src="<?= $base ?>assets/icons/facebook-icon.png" alt="Facebook" class="icones-menu">
+                                    <img src="<?= $base ?>assets/icons/facebook-icon.webp" alt="Facebook" class="icones-menu">
                                 </a>
                             </div>
                             <div class="col-auto">
                                 <a href="https://www.instagram.com/irproducoes.oficial/" target="_blank">
-                                    <img src="<?= $base ?>assets/icons/instagram-icon.png" alt="Instagram" class="icones-menu">
+                                    <img src="<?= $base ?>assets/icons/instagram-icon.webp" alt="Instagram" class="icones-menu">
                                 </a>
                             </div>
                         </div>

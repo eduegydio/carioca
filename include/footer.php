@@ -3,7 +3,7 @@
     <div class="container py-5">
         <div class="row align-items-center">
             <div class="col-12 col-md-7 col-lg-5">
-                <img src="<?= $base ?>assets/images/logo-ir-producoes-laranja.jpg" alt="" class="mb-2">
+                <img src="<?= $base ?>assets/images/logo-ir-producoes-laranja.webp" alt="" class="mb-2">
                 <!--
                 <p class="alt-down light">
                     A IR PRODUÇÕES E EVENTOS é uma empresa de eventos formalizada há três (<span class="ff-montserrat">3</span>) anos, que chega ao mercado com uma história
@@ -60,17 +60,17 @@
                 <div class="col-auto d-flex flex-row gap-2 ps-3">
                     <div class="col-auto ms-auto">
                         <a href="https://api.whatsapp.com/send?1=pt_BR&phone=5569999429345" target="_blank">
-                            <img src="<?= $base ?>assets/icons/whatsapp-icon.png" alt="Whatsapp" class="icones-menu">
+                            <img src="<?= $base ?>assets/icons/whatsapp-icon.webp" alt="Whatsapp" class="icones-menu">
                         </a>
                     </div>
                     <div class="col-auto">
                         <a href="https://www.facebook.com/irproducoes/" target="_blank">
-                            <img src="<?= $base ?>assets/icons/facebook-icon.png" alt="Facebook" class="icones-menu">
+                            <img src="<?= $base ?>assets/icons/facebook-icon.webp" alt="Facebook" class="icones-menu">
                         </a>
                     </div>
                     <div class="col-auto me-auto me-lg-auto">
                         <a href="https://www.instagram.com/irproducoes.oficial/" target="_blank">
-                            <img src="<?= $base ?>assets/icons/instagram-icon.png" alt="Instagram" class="icones-menu">
+                            <img src="<?= $base ?>assets/icons/instagram-icon.webp" alt="Instagram" class="icones-menu">
                         </a>
                     </div>
                 </div>

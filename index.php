@@ -12,23 +12,46 @@
 
 <body>
     <?php include('include/menu.php'); ?>
+
     
 
-<section id="bg-1">
+<section id="bg-1" class="">
     <div class="container">
         <div class="row">
             <div class="col-sm-6"></div>
             <div class="col-sm-6 px-5 txtBG-1">
                 <h2><b>Garanta já seu ingresso!</b></h2>
                 <p>Lote promocional disponível</p>
+
+                <div class="d-flex flex-row justify-content-center justify-content-md-start mt-3">
+                <h1 class="alt-biggest txt-bora light mt-3"><b>#BO <br>RA?</b></h1>
+                    <p class="data mx-2 mt-3">
+                        28
+                    </p>
+                    <div class="col-auto d-flex align-items-center mx-3 mt-3">
+                        <hr class="divisor m-0">
+                    </div>
+                    <div>
+                        <p class="alt-plus mt-3">
+                            <b>Outubro</b>
+                        </p>
+                        <p class="alt-text light ff-montserrat">
+                            20h e 22:30h <br>
+                            Em <span class="text-orange">duas</span> sessões
+                        </p>
+                    </div>                   
+                </div>
+                <p class="sub-text ff-montserrat"><i class="fas fa-map-marker-alt" style="color: #ff8000;"></i> <b>Teatro Palácio das Artes</b></p>
+                <a href="#" class="btnLink btn-yellow d-block w-fit-content mt-4 mx-auto mx-lg-0" target="_blank"><h5><b>Compre aqui</b></h5></a>
             </div>
+            <div class="btnRolagem cursor-pointer momentsNoneMobile mt-5"></div>   
         </div>
     </div>
 </section>
 
 
-
-<section id="bg-2">
+<section id="bg-2">         
+<div class="btnRolagem cursor-pointer momentsNone"></div>           
 <div class="bg-parceiros position-relative mt-5 bg-sobre" id="feedback-da-galera">
         <div class="container py-5" id="patrocinadores">
             <div class="row">
@@ -36,27 +59,62 @@
                     <h1><b>Patrocinadores</b></h1>
                 </div>
 
-                <div class="col-10 col-md-8 col-lg-6 mx-auto mt-5 carrosselFeedback">
+                <div class="col-10 col-md-8 col-lg-6 mx-auto mt-5 carrosselFeedback momentsNone">
                     <div class="boxParceiros">
-                        <div class="col-4 mx-2">
-                            <img src="assets/images/patrocinadores/tim.png" alt="">
+                        <div class="col-3 mx-2">
+                            <img src="assets/images/patrocinadores/tim.webp" alt="">
                         </div>
-                        <div class="col-4 mx-2">
-                            <img src="assets/images/patrocinadores/cartao-todos.png" alt="">
+                        <div class="col-3 mx-2">
+                            <img src="assets/images/patrocinadores/cartao-todos.webp" alt="">
                         </div>
-                        <div class="col-4 mx-2">
-                            <img src="assets/images/patrocinadores/dydyo.png" alt="">
+                        <div class="col-3 mx-2">
+                            <img src="assets/images/patrocinadores/dydyo.webp" alt="">
+                        </div>
+                        <div class="col-3 mx-2">
+                            <img src="assets/images/patrocinadores/caphas-burguer.webp" alt="">
                         </div>
                     </div>
                     <div class="boxParceiros">
-                        <div class="col-4 mx-2">
-                            <img src="assets/images/patrocinadores/holanda.png" alt="">
+                        <div class="col-3 mx-2">
+                            <img src="assets/images/patrocinadores/holanda.webp" alt="">
                         </div>
-                        <div class="col-4 mx-2">
-                            <img src="assets/images/patrocinadores/nissan.png" alt="">
+                        <div class="col-3 mx-2">
+                            <img src="assets/images/patrocinadores/nissan.webp" alt="">
                         </div>
-                        <div class="col-4 mx-2">
-                            <img src="assets/images/patrocinadores/acd.png" alt="">
+                        <div class="col-3 mx-2">
+                            <img src="assets/images/patrocinadores/acd.webp" alt="">
+                        </div>
+                        <div class="col-3 mx-2">
+                            <img src="assets/images/patrocinadores/olla.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Mobile -->
+
+                <div class="col-10 col-md-8 col-lg-6 mx-auto mt-5 carrosselFeedback momentsNoneMobile">
+                    <div class="boxParceiros">
+                        <div class="col-12 mx-0 row justify-content-center align-items-center">
+                            <img src="assets/images/patrocinadores/tim.webp" alt="">
+                            <img src="assets/images/patrocinadores/cartao-todos.webp" alt="">
+                        </div>
+                    </div>
+                    <div class="boxParceiros">
+                        <div class="col-12 mx-0 row justify-content-center align-items-center">
+                            <img src="assets/images/patrocinadores/dydyo.webp" alt="">
+                            <img src="assets/images/patrocinadores/caphas-burguer.webp" alt="">
+                        </div>
+                    </div>
+                    <div class="boxParceiros">
+                        <div class="col-12 mx-0 row justify-content-center align-items-center">
+                            <img src="assets/images/patrocinadores/holanda.webp" alt="">
+                            <img src="assets/images/patrocinadores/nissan.webp" alt="">
+                        </div>
+                    </div>
+                    <div class="boxParceiros">
+                        <div class="col-12 mx-0 row justify-content-center align-items-center">
+                            <img src="assets/images/patrocinadores/acd.webp" alt="">
+                            <img src="assets/images/patrocinadores/olla.webp" alt="">
                         </div>
                     </div>
                 </div>
@@ -66,7 +124,7 @@
 </section>
 
 <section id="marvio-lucio">
-    <div class="container mt-5 sobreCarioca">
+    <div class="container mt-5 sobreCarioca ancoraConteudo">
         <div class="row">
         <div class="col-sm-12 text-center mt-5">
                 <h1><b>MÁRVIO LÚCIO</b></h1>
@@ -96,13 +154,13 @@
     <div class="container mt-5 bg-ingresso">
         <div class="row">
                 <div class="col-auto mt-5">
-                    <img class="" src="assets/images/tv.png" alt="">
+                    <img class="" src="assets/images/tv.webp" alt="">
                 </div>
                 <div class="col-auto d-flex align-items-center px-0 px-md-2">
                     <hr class="divisao m-0">
                 </div>
                 <div class="col-auto mt-5">
-                    <img src="assets/images/ingressoLogo.png" alt="">
+                    <img src="assets/images/ingressoLogo.webp" alt="">
                     <h2 class="py-3"><b> Garanta seu <br> ingresso on-line</b></h2>
                     <a href="#" class="btnLink btn-yellow d-block w-fit-content mt-3 mx-auto mx-lg-0" target="_blank"><h5><b>Compre aqui</b></h5></a>
                 </div>                      
@@ -115,12 +173,12 @@
     <div class="container mt-0 bg-5">
         <div class="row">
             <div class="col-sm-6 mt-5">
-                <img class="iconHumor" src="assets/icons/icon-humor.png" alt="">
+                <img class="iconHumor" src="assets/icons/icon-humor.webp" alt="">
                 <p class="txtHumor mx-3"><b>Um dos melhores <br>
                     humoristas atualidade</b></p>
 
                 <div class="col-sm-6 mt-5 d-xl-none">
-                    <img class="py-2" src="assets/images/carioca-humor.png" alt="">
+                    <img class="py-2" src="assets/images/carioca-humor.webp" alt="">
                 </div>
 
                 <p class="py-3">Carioca completa <b class="numero txtLaranja">22 anos de carreira</b>
@@ -135,7 +193,7 @@
                     Bolsonaro e Sérgio Moro</p>
             </div>
             <div class="col-sm-6 mt-5 d-none d-xl-block">
-                <img class="py-5" src="assets/images/carioca-humor.png" alt="">
+                <img class="py-5" src="assets/images/carioca-humor.webp" alt="">
             </div>
         </div>
     </div>
@@ -149,9 +207,9 @@
                     <h1><b>Ponto de Vendas</b></h1>
                 </div>
                 <div class="col-sm-6 mt-5 leftVendas">
-                    <img src="assets/images/st-logo.png" alt="">
+                    <img src="assets/images/st-logo.webp" alt="">
                 </div>
-                <div class="col-sm-6 mt-5 leftVendas2">
+                <div class="col-sm-6 mt-5 leftVendas2 text-center">
                     <p>Eventos e entretenimento <br>
                         A sua casa de show <br>
                         Porto Velho - Rondônia</p>
@@ -186,13 +244,13 @@
             <h1><b>Apoio</b></h1>
         </div>
         <div class="col-auto">
-            <img src="assets/images/holanda-2.png" alt="">
+            <img src="assets/images/holanda-2.webp" alt="">
         </div>
         <div class="col-auto">
-            <img src="assets/images/azul-malhas.png" alt="">
+            <img src="assets/images/azul-malhas.webp" alt="">
         </div>
         <div class="col-auto">
-            <img src="assets/images/dduwe.png" alt="">
+            <img src="assets/images/mais-facil.webp" alt="">
         </div>
         </div>
       </div>
@@ -229,14 +287,14 @@
 
                   <!-- Carrossel Mobile -->
                   <div class="col-10 col-md-8 col-lg-6 mx-auto mt-0 carrosselFeedback momentsNoneMobile">
-                    <div class="boxMoments">
+                    <div class="boxMoments row justify-content-center align-items-center">
                         <div class="col-auto mt-5">
                             <div class="imgWhite mt-3">imagem</div>
                             <div class="imgWhite mt-3">imagem</div>
                             <div class="imgWhite mt-3">imagem</div>
                         </div>
                     </div>
-                    <div class="boxMoments">
+                    <div class="boxMoments row justify-content-center align-items-center">
                         <div class="col-auto mt-5">
                             <div class="imgWhite mt-3">imagem</div>
                             <div class="imgWhite mt-3">imagem</div>
@@ -260,10 +318,10 @@
                         e inclusão para todos</p>
                 </div>
                 <div class="col-auto mt-3">
-                    <img src="assets/images/carioca-social.png" alt="">
+                    <img src="assets/images/carioca-social.webp" alt="">
                 </div>
                 <div class="col-auto mt-5">
-                    <img src="assets/images/amaro.png" alt="">
+                    <img src="assets/images/amaro.webp" alt="">
                 </div>
             </div>
         </div>
@@ -283,20 +341,20 @@
                     <div class="boxPerson">
                         <div class="col-auto mx-2 mt-5">
                             <div class="imgPerson mt-3 text-center">
-                              <img class="bg-cinza" src="assets/images/Bolsonabo.png" alt="">
+                              <img class="bg-cinza" src="assets/images/Bolsonabo.webp" alt="">
                               <p class="py-3"><b>Bolsonabo <br><br></b></p>
                             </div>
                         </div>
                         <div class="col-auto mx-2 mt-5">
                             <div class="imgPerson mt-3 text-center">
-                              <img class="bg-cinza" src="assets/images/Fredi-mercuri.png" alt="">
-                              <p class="py-3"><b>Freddie Mercury</b></p>
+                              <img class="bg-cinza" src="assets/images/Fredi-mercuri.webp" alt="">
+                              <p class="py-3"><b>Freddie <br> Mercury</b></p>
                             </div>
                         </div>
                         <div class="col-auto mx-2 mt-5">
                             <div class="imgPerson mt-3 text-center">
-                              <img class="bg-cinza" src="assets/images/Moraes-Moreira.png" alt="">
-                              <p class="py-3"><b>Moraes Moreira</b></p>
+                              <img class="bg-cinza" src="assets/images/Moraes-Moreira.webp" alt="">
+                              <p class="py-3"><b>Moraes <br> Moreira</b></p>
                             </div>
                         </div>
                     </div>
@@ -304,19 +362,19 @@
                     <div class="boxPerson">
                         <div class="col-auto mx-2 mt-5">
                             <div class="imgPerson mt-3 text-center">
-                              <img class="bg-cinza" src="assets/images/Gato-de-melo.png" alt="">
-                              <p class="py-3"><b>Gato de Melo</b></p>
+                              <img class="bg-cinza" src="assets/images/Gato-de-melo.webp" alt="">
+                              <p class="py-3"><b>Gato de <br> Melo</b></p>
                             </div>
                         </div>
                         <div class="col-auto mx-2 mt-5">
                             <div class="imgPerson mt-3 text-center">
-                              <img class="bg-cinza" src="assets/images/Renato-Russo.png" alt="">
-                              <p class="py-3"><b>Renato Russo</b></p>
+                              <img class="bg-cinza" src="assets/images/Renato-Russo.webp" alt="">
+                              <p class="py-3"><b>Renato <br> Russo </b></p>
                             </div>
                         </div>
                         <div class="col-auto mx-2 mt-5">
                             <div class="imgPerson mt-3 text-center">
-                              <img class="bg-cinza" src="assets/images/Sergio-moro.png" alt="">
+                              <img class="bg-cinza" src="assets/images/Sergio-moro.webp" alt="">
                               <p class="py-3"><b>Sergio <br> Moro</b></p>
                             </div>
                         </div>
@@ -324,7 +382,7 @@
                     <div class="boxPerson">
                         <div class="col-auto mx-2 mt-5">
                             <div class="imgPerson mt-3 text-center">
-                              <img class="bg-cinza" src="assets/images/Lele-santos.png" alt="">
+                              <img class="bg-cinza" src="assets/images/Lele-santos.webp" alt="">
                               <p class="py-3"><b>Lele <br> Santos </b></p>
                             </div>
                         </div>
@@ -335,58 +393,58 @@
                 <!-- Mobile -->
 
                 <div class="col-10 col-md-8 col-lg-6 mx-auto mt-0 boxWidth carrosselFeedback momentsNoneMobile">
-                    <div class="boxPerson">
+                    <div class="boxPerson row justify-content-center align-items-center">
                         <div class="col-auto mx-2 mt-2">
                             <div class="imgPerson mt-3 text-center">
-                              <img class="bg-cinza" src="assets/images/Bolsonabo.png" alt="">
+                              <img class="bg-cinza" src="assets/images/Bolsonabo.webp" alt="">
                               <p class="py-3"><b>Bolsonabo <br><br></b></p>
                             </div>
                         </div>
                     </div>
-                    <div class="boxPerson">
+                    <div class="boxPerson row justify-content-center align-items-center">
                         <div class="col-auto mx-2 mt-2">
                             <div class="imgPerson mt-3 text-center">
-                              <img class="bg-cinza" src="assets/images/Fredi-mercuri.png" alt="">
-                              <p class="py-3"><b>Freddie Mercury</b></p>
+                              <img class="bg-cinza" src="assets/images/Fredi-mercuri.webp" alt="">
+                              <p class="py-3"><b>Freddie <br> Mercury</b></p>
                             </div>
                         </div>
                     </div>
-                    <div class="boxPerson">
+                    <div class="boxPerson row justify-content-center align-items-center">
                         <div class="col-auto mx-2 mt-2">
                             <div class="imgPerson mt-3 text-center">
-                              <img class="bg-cinza" src="assets/images/Moraes-Moreira.png" alt="">
-                              <p class="py-3"><b>Moraes Moreira</b></p>
+                              <img class="bg-cinza" src="assets/images/Moraes-Moreira.webp" alt="">
+                              <p class="py-3"><b>Moraes <br> Moreira</b></p>
                             </div>
                         </div>
                     </div>
-                    <div class="boxPerson">
+                    <div class="boxPerson row justify-content-center align-items-center">
                         <div class="col-auto mx-2 mt-2">
                             <div class="imgPerson mt-3 text-center">
-                              <img class="bg-cinza" src="assets/images/Gato-de-melo.png" alt="">
-                              <p class="py-3"><b>Gato de Melo</b></p>
+                              <img class="bg-cinza" src="assets/images/Gato-de-melo.webp" alt="">
+                              <p class="py-3"><b>Gato de <br> Melo</b></p>
                             </div>
                         </div>
                     </div>
-                    <div class="boxPerson">
+                    <div class="boxPerson row justify-content-center align-items-center">
                         <div class="col-auto mx-2 mt-2">
                             <div class="imgPerson mt-3 text-center">
-                              <img class="bg-cinza" src="assets/images/Renato-Russo.png" alt="">
-                              <p class="py-3"><b>Renato Russo</b></p>
+                              <img class="bg-cinza" src="assets/images/Renato-Russo.webp" alt="">
+                              <p class="py-3"><b>Renato <br> Russo</b></p>
                             </div>
                         </div>
                     </div>
-                    <div class="boxPerson">
+                    <div class="boxPerson row justify-content-center align-items-center">
                         <div class="col-auto mx-2 mt-2">
                             <div class="imgPerson mt-3 text-center">
-                              <img class="bg-cinza" src="assets/images/Sergio-moro.png" alt="">
+                              <img class="bg-cinza" src="assets/images/Sergio-moro.webp" alt="">
                               <p class="py-3"><b>Sergio <br> Moro</b></p>
                             </div>
                         </div>
                     </div>
-                    <div class="boxPerson">
+                    <div class="boxPerson row justify-content-center align-items-center">
                         <div class="col-auto mx-2 mt-2">
                             <div class="imgPerson mt-3 text-center">
-                              <img class="bg-cinza" src="assets/images/Lele-santos.png" alt="">
+                              <img class="bg-cinza" src="assets/images/Lele-santos.webp" alt="">
                               <p class="py-3"><b>Lele <br> Santos </b></p>
                             </div>
                         </div>

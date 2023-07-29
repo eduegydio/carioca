@@ -83,7 +83,7 @@ button {
 .p,
 p {
     margin-bottom: 0 !important;
-    font-size: 24px;
+    font-size: 18px;
     line-height: 29px;
     font-weight: 400;
 }
@@ -137,7 +137,7 @@ small {
 }
 
 .sub-text {
-    font-size: 12px;
+    font-size: 26px;
     line-height: 20px;
 }
 
@@ -1045,6 +1045,21 @@ footer::before {
     padding: 25rem 15px;
 }
 
+.btnRolagem {
+    position: relative;
+    /* bottom: -6vw; */
+    margin-top: 0%;
+    left: 50%;
+    background-image: url(../assets/icons/arrow-rolagem-icon.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+    -webkit-animation: animacao 2s infinite;
+    animation: animacao 2s infinite;
+}
+
 
  
 
@@ -1071,7 +1086,7 @@ footer::before {
     left: 0;
     width: 200px;
     height: 500px;
-    background-image: url('../assets/icons/decoracao.png');
+    background-image: url('../assets/icons/decoracao.webp');
     background-size: cover;
     background-position: right;
     background-repeat: no-repeat;
@@ -1104,7 +1119,7 @@ footer::before {
     right: 0;
     width: 200px;
     height: 500px;
-    background-image: url('../assets/icons/decoracao.png');
+    background-image: url('../assets/icons/decoracao.webp');
     background-size: cover;
     background-position: right;
     background-repeat: no-repeat;
@@ -1134,7 +1149,7 @@ footer::before {
     left: 0;
     width: 200px;
     height: 500px;
-    background-image: url('../assets/icons/decoracao.png');
+    background-image: url('../assets/icons/decoracao.webp');
     background-size: cover;
     background-position: right;
     background-repeat: no-repeat;
@@ -1158,7 +1173,7 @@ footer::before {
 
 
 .bg-parceiros {
-    background-image: url('../assets/images/banners/bg-parceiros.png');
+    background-image: url('../assets/images/banners/bg-parceiros.webp');
     background-size: cover;
     background-position: top;
     padding: 80px 0;
@@ -1172,7 +1187,7 @@ footer::before {
     left: 90%;
     width: 10%;
     height: 100%;
-    background-image: url('../assets/icons/decoracao-right.png');
+    background-image: url('../assets/icons/decoracao-right.webp');
     background-size: cover;
     background-position: left;
     background-repeat: no-repeat;
@@ -1187,7 +1202,7 @@ footer::before {
     left: 0%;
     width: 10%;
     height: 100%;
-    background-image: url('../assets/icons/decoracao.png');
+    background-image: url('../assets/icons/decoracao.webp');
     background-size: cover;
     background-position: right;
     background-repeat: no-repeat;
@@ -1209,7 +1224,7 @@ footer::before {
     left: 90%;
     width: 10%;
     height: 100%;
-    background-image: url(../assets/icons/decoracao-right.png);
+    background-image: url(../assets/icons/decoracao-right.webp);
     background-size: cover;
     background-position: left;
     background-repeat: no-repeat;
@@ -1226,7 +1241,7 @@ footer::before {
 
 
 .bg-moments{
-    background-image: url('../assets/images/banners/bg-moments.jpg');
+    background-image: url('../assets/images/banners/bg-moments.webp');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -1235,7 +1250,7 @@ footer::before {
 }
 
 .bg-social {
-    background-image: url('../assets/images/banners/bg-social.png');
+    background-image: url('../assets/images/banners/bg-social.webp');
     background-size: cover;
     background-position: top;
     padding: 20% 1.5%;
@@ -1258,7 +1273,7 @@ footer::before {
 }
 
 .bg-redes {
-    background-image: url('../assets/images/banners/bg-redes.png');
+    background-image: url('../assets/images/banners/bg-redes.webp');
     background-size: cover;
     background-position: top;
     padding: 15% 1.5%;
@@ -1296,6 +1311,10 @@ footer::before {
     background-color: #fff;
   }
   
+  .txt-bora{
+    font-size: 40px !important;
+    line-height: 40px !important;
+  }
 
   .txt-dp{
     font-size: 11px;
@@ -1498,7 +1517,7 @@ footer::before {
     left: 0;
     width: 200px;
     height: 500px;
-    background-image: url(../assets/icons/decoracao.png);
+    background-image: url('../assets/icons/decoracao.webp');
     background-size: cover;
     background-position: right;
     background-repeat: no-repeat;
@@ -1727,7 +1746,7 @@ footer::before {
     .bg-ingresso{
         width: 100%;
         height: auto;
-        background-image: url('/carioca/assets/images/banners/mobile/bg-4Mobile.png');
+        background-image: url('/carioca/assets/images/banners/mobile/bg-4Mobile.webp');
         background-size:cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -1756,12 +1775,14 @@ footer::before {
         margin-top: 16% !important;
     }
 
+    .btnRolagem {
+        bottom: -24vw !important;
+    }
+
 }
 
 @media screen and (min-width: 332px) and (max-width: 375px) {
-    .boxPerson {
-        padding: 0% 0 0% 0.8% !important;
-    }
+
 
 }
 
@@ -1778,17 +1799,11 @@ footer::before {
 }
 
 @media screen and (min-width: 380px) and (max-width: 414px) {
-    .boxPerson {
-        padding: 0% 0 0% 1.1% !important;
-
-    }
+ 
 }
 
 @media screen and (min-width: 416px) and (max-width: 428px) {
-    .boxPerson {
-        padding: 0% 0 0% 2.5 !important;
 
-    }
 }
 
 @media screen and (max-width: 576px) {
@@ -1805,7 +1820,7 @@ footer::before {
         background-size:auto;
         background-position: center;
         background-repeat: no-repeat;
-        padding: 20rem 0px;
+        padding: 17rem 0px;
     }
 
     .bg-moments{
@@ -1824,7 +1839,7 @@ footer::before {
 
     #bg-2 {
         position: relative;
-        margin-top: -15%;
+        margin-top: -35%;
     }
 
     .txtHumor{
@@ -1840,10 +1855,7 @@ footer::before {
         padding: 60px 0 !important;
     }
 
-    .boxMoments {
-        padding: 2% 0 2% 2.5% !important;
-    }
-
+ 
     .bg-redes {
         padding: 2% 0 30% 2.5% !important;
     }
@@ -1977,9 +1989,7 @@ footer::before {
 }
 
 @media screen and (max-width: 330px) {
-    .boxPerson {
-        padding: 0% 0 0% 0.3% !important;
-    }
+ 
 
 
     p {
