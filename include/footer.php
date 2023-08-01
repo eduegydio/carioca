@@ -22,22 +22,6 @@
                     <p class="alt-down ff-montserrat"><i class="fas fa-phone-alt" style="color: #ff8000;"></i> (69) 99942-9345</p>
                 </div>
             </div>
-
-            <div class="col-md-4 col-lg-3 ms-auto mt-3 mt-md-0">
-                <div class="border-orange-left2 d-flex flex-column gap-1">
-                    <a href="#inicio" class="alt-down light d-block w-fit-content inicio">Início</a>
-                    <a href="#institucional" class="alt-down light d-block w-fit-content institucional">Institucional</a>
-                    <a href="#agenciamento" class="alt-down light d-block w-fit-content agenciamento">Agenciamento</a>
-                    <a href="#case-e-realizacao" class="alt-down light d-block w-fit-content">Cases e realizações</a>
-                    <a href="#feedback-da-galera" class="alt-down light d-block w-fit-content">Feedback da galera</a>
-                    <a href="#agenda-de-eventos" class="alt-down light d-block w-fit-content agenda">Agenda de eventos</a>
-                    <a href="#shows-e-ingressos" class="alt-down light d-block w-fit-content">Shows e ingressos</a>
-                    <a href="#parceiros" class="alt-down light d-block w-fit-content parceiros">Parceiros</a>
-                    <a href="#redes-sociais" class="alt-down light d-block w-fit-content">Redes Sociais</a>
-                    <a href="#contato" class="alt-down light d-block w-fit-content contato">Contato</a>
-                    <a href="#localizacao" class="alt-down light d-block w-fit-content">Localização</a>
-                </div>
-            </div>
             <div class="col-md-4 col-lg-3 ms-auto mt-3 mt-md-0 footer-menu">
                 <div class="border-orange-left2 d-flex flex-column gap-1">
                     <a href="#inicio" class="alt-down light d-block w-fit-content inicio">Início</a>

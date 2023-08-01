@@ -1038,7 +1038,7 @@ footer::before {
 
 /* Home */
 #bg-1 {
-    background-image: url('../assets/images/banners/bg-carioca.webp');
+    background-image: url('../assets/images/banners/bg-carioca2.webp');
     background-size:cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -1050,7 +1050,7 @@ footer::before {
     /* bottom: -6vw; */
     margin-top: 0%;
     left: 50%;
-    background-image: url(../assets/icons/arrow-rolagem-icon.png);
+    background-image: url('../assets/icons/arrow-rolagem-icon.png');
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -1059,6 +1059,7 @@ footer::before {
     -webkit-animation: animacao 2s infinite;
     animation: animacao 2s infinite;
 }
+
 
 
  
@@ -1267,7 +1268,6 @@ footer::before {
 
 .videoAquiAgr{
     border-radius: 12px;
-    background-color: #fff;
     width: 644px;
     height: 326px;
 }
@@ -1283,10 +1283,41 @@ footer::before {
 .imgWhite{
     width: 200px;
     height: auto;
-    padding: 40px;
-    border-radius: 12px;
-    background-color: #fff;
 }
+
+.imgAqui{
+    width: 200px;
+    height: 150px;
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+  
+  .masonry-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+    max-width: 800px;
+    margin: 20px auto;
+  }
+  
+  .masonry-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .masonry-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+
 
 .imgRedes{
     width: 90px;
@@ -1302,6 +1333,20 @@ footer::before {
     display: flex !important;
     flex-direction: row;
     margin: 0 5px;
+}
+
+.boxTBT {
+    padding: 5px 15px;
+    border-radius: 20px;
+    display: flex !important;
+    flex-direction: row;
+    margin: 0 5px;
+}
+
+.imgTBT{
+    width: 100%;
+    height: 278px;
+    object-fit: cover;
 }
 
 .dp-circle {
