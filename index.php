@@ -5,8 +5,8 @@
     <meta charset="utf-8">
     <title>IR Produções e eventos</title>
     <meta name="Description" content="Empresa de organização de eventos. Trabalhamos na concepção e gestão de eventos empresariais e sociais. Atuamos com análise de perfil do cliente, planejamento, organização e produção do evento." />
-    <link rel="alternate" href="https://irproducoes.com.br/cariocaemportovelho/carioca/" hreflang="pt-br" />
-    <link rel="canonical" href="https://irproducoes.com.br/cariocaemportovelho/carioca/" />
+    <link rel="alternate" href="https://irproducoes.com.br/cariocaemportovelho/" hreflang="pt-br" />
+    <link rel="canonical" href="https://irproducoes.com.br/cariocaemportovelho/" />
     <?php include('include/head.php'); ?>
 </head>
 
@@ -15,6 +15,7 @@
 
     
 
+<a href="https://www.ingressomix.com/evento/247,260/Carioca_em_Porto_Velho" target="_blank">
 <section id="bg-1" class="">
     <div class="container">
         <div class="row">
@@ -50,6 +51,7 @@
         </div>
     </div>
 </section>
+</a>
 
 
 <section id="bg-2">         
@@ -163,7 +165,7 @@
                 <div class="col-auto mt-5">
                     <img src="assets/images/ingressoLogo.webp" alt="Ingresso">
                     <h2 class="py-3"><b> Garanta seu <br> ingresso on-line</b></h2>
-                    <a href="#" class="btnLink btn-yellow d-block w-fit-content mt-3 mx-auto mx-lg-0" target="_blank"><h5><b>Compre aqui</b></h5></a>
+                    <a href="https://www.ingressomix.com/evento/247,260/Carioca_em_Porto_Velho" class="btnLink btn-yellow d-block w-fit-content mt-3 mx-auto mx-lg-0" target="_blank"><h5><b>Compre aqui</b></h5></a>
                 </div>                      
         </div>
     </div>
@@ -229,7 +231,7 @@
                 <div class="col-sm-12 text-center">
                     <h1><b>#TBT</b></h1>
                     <p class="mt-3">Fotos dos melhores momentos do evento</p>
-                    <div class="mt-2 momentsNone"><img src="assets/images/tbt.png" alt="Imagem"></div>
+                    <div class="mt-2 momentsNone"><img src="assets/images/tbt.webp" alt="Imagem"></div>
 
                     <!-- mobile -->
                     <div class="row dp-row carrosselFeedback momentsNoneMobile">
@@ -521,7 +523,7 @@
             </div>
             <div class="row justify-content-center align-items-center mt-3">
                 <div class="videoAquiAgr text-center mt-2">
-                <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;"> <iframe style="width:100%;height:100%;border-radius: 12px;position:absolute;left:0px;top:0px;overflow:hidden" frameborder="0" type="text/html" src="https://www.dailymotion.com/embed/video/k2BUUWR7BK8DbpzlatJ" width="100%" height="100%" allowfullscreen title="Dailymotion Video Player" > </iframe> </div>
+                <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;"> <iframe async style="width:100%;height:100%;border-radius: 12px;position:absolute;left:0px;top:0px;overflow:hidden" frameborder="0" type="text/html" src="https://www.dailymotion.com/embed/video/k2BUUWR7BK8DbpzlatJ" width="100%" height="100%" allowfullscreen title="Dailymotion Video Player" > </iframe> </div>
                 </div>
             </div>
         </div>
@@ -718,8 +720,8 @@
             <div class="col-12 text-center">
                 <h1><b>Local do Evento</b></h1>
             </div>
-            <div class="text-center mt-5">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3943.361321043912!2d-63.909575100000005!3d-8.7520332!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x92325cd5b5f685bf%3A0xfa1803cb8f7a77ee!2sTeatro%20Estadual%20Pal%C3%A1cio%20das%20Artes!5e0!3m2!1spt-BR!2sbr!4v1690861167436!5m2!1spt-BR!2sbr" width="60%" height="350" style="border:15px solid; border-color: #ff8300; border-radius:40px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="box-shadow bg-map" title="mapa"></iframe>
+            <div class="text-center mt-5 ">
+                <a href="https://goo.gl/maps/pfq8c5o6sN2AFndi6"><img class="bg-map" src="assets/images/map.webp" alt="Endereço"></a>
             </div>
     </div>
 </section>
@@ -727,6 +729,9 @@
  <!-- Footer !-->
  <?php include('include/footer.php'); ?>
 
+ <!-- Coloque esta tag de imagem em algum lugar da página onde ela não seja exibida para o usuário -->
+<img id="bgPreload" src="../assets/images/banners/mobile/bg-1Mobile2.webp" style="display: none;">
+<script src="<?= $base ?>js/pre-load.js"></script>
 <script src="<?= $base ?>js/carrossel-agenciamento-artistico.js"></script>
 </body>
 

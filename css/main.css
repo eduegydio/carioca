@@ -1293,29 +1293,9 @@ footer::before {
 }
 
   
-  .masonry-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 10px;
-    max-width: 800px;
-    margin: 20px auto;
-  }
-  
-  .masonry-item {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #f0f0f0;
-    padding: 10px;
-    border-radius: 5px;
-  }
-  
-  .masonry-item img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 5px;
-    margin-bottom: 10px;
-  }
+.bg-map {
+    border:15px solid; border-color: #ff8300; border-radius:40px;
+}
   
 
 
@@ -1404,7 +1384,7 @@ footer::before {
 }
 
 #bg-ingresso {
-    background-image: url('../assets/images/banners/bg-4.webp');
+    background-image: url('../assets/images/banners/bg-Mobile4.webp');
     background-size:cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -1793,6 +1773,55 @@ footer::before {
         margin: 0 10px;
     }
 
+    #bg-1 {
+        background-image: url('../assets/images/banners/mobile/bg-1Mobile2.webp');
+        background-size:auto;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .bg-moments{
+        background-image: url('../assets/images/banners/mobile/bg-momentsMobile.webp');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding: 200px 15px;
+    }
+
+    .bg-aquiAgora {
+        background-image: url('../assets/images/banners/mobile/bg-aquiagoraMobile.webp');
+        background-size: cover;
+        background-position: top;
+        padding: 20% 1.5%;
+        position: relative;
+    }
+    
+    .bg-apoio {
+        background-image: url('../assets/images/banners/mobile/bg-apoioMobile.webp');
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        padding: 200px ;
+    }
+    
+    .bg-social {
+        background-image: url('../assets/images/banners/mobile/bg-socialMobile.webp');
+        background-size: cover;
+        background-position: top;
+        padding: 20% 1.5%;
+        position: relative;
+    }
+
+
+    .bg-parceiros {
+        background-image: url('../assets/images/banners/mobile/bg-parceirosMobile.webp');
+        background-size: cover;
+        background-position: top;
+        padding: 80px 0;
+        position: relative;
+    }
+
+
     .bg-ingresso{
         width: 100%;
         height: auto;
@@ -1802,6 +1831,7 @@ footer::before {
         background-repeat: no-repeat;
         padding: 0rem 5rem 3rem 5rem;
     }
+
 
     .leftVendas {
         left: 10%; /* Ajuste a porcentagem conforme necessário para telas menores */
@@ -1865,20 +1895,7 @@ footer::before {
     }
 
     /* Banner home */
-    #bg-1 {
-        background-image: url('../assets/images/banners/mobile/bg-1Mobile2.webp');
-        background-size:auto;
-        background-position: center;
-        background-repeat: no-repeat;
-    }
 
-    .bg-moments{
-        background-image: url('../assets/images/banners/mobile/bg-momentsMobile.webp');
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        padding: 200px 15px;
-    }
 
     .txtBG-1{
         text-align: center;
@@ -1911,6 +1928,7 @@ footer::before {
 
     .bg-map {
         width: 100% !important;
+        border:15px solid; border-color: #ff8300; border-radius:40px;
     }
 
     /* .boxPerson {
